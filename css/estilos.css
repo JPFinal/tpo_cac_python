@@ -1,0 +1,220 @@
+nav {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: Roboto Regular;
+}
+
+.logo img {
+    width: 45px;
+    height: 50px;
+}
+
+.dependencia {
+    color: #000000;
+    font-size: 14px;
+    text-align: right;
+    margin-right: 20px;
+    padding-right: 62%;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.link1:hover{
+    transform: scale(1.2);
+}
+
+.link2:hover{
+    transform: scale(1.2);
+}
+
+.link3:hover{
+    transform: scale(1.2);
+}
+
+/* Estilos CSS para el botón */
+.full-width-button {
+    width: 650px; 
+    text-align: center;
+    padding: 5px;
+    margin-top: 25px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    transform: scale(1); 
+}
+
+.full-width-button:hover{
+    transform: scale(1.1);
+}
+
+.icon {
+    display: block; 
+    margin: 0 auto; 
+    width: 75px; 
+    height: 75px; 
+    background-image: url("../imagenes/icono001.png");
+    background-size: cover; 
+}
+
+.description {
+    color: #707070; 
+    font-size: 16px; 
+    margin-top: 10px; 
+    font-size: 100%;
+}
+
+
+.full-width-button2 {
+    width: 650px; 
+    text-align: center;
+    padding: 5px;
+    margin-top: 25px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    transform: scale(1); 
+}
+
+.full-width-button2:hover{
+    transform: scale(1.1);
+}
+
+.icon2 {
+    display: block; 
+    margin: 0 auto; 
+    width: 75px; 
+    height: 75px; 
+    background-image: url("../imagenes/icono002.png"); 
+    background-size: cover; 
+}
+
+.description2 {
+    color: #707070; 
+    font-size: 16px; 
+    margin-top: 10px; 
+    font-size: 100%;
+}
+
+.bienvenidos {
+    background-image: url("../imagenes/multas002.png");
+    background-size: cover;
+    padding: 30px; 
+    opacity: 0.80;
+    border-radius: 10px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    border: 2px solid #000; 
+}
+
+h1{
+    align-self: center;
+    color: #DBE6EC;
+    width: cover;
+    padding-left: 40%;
+    padding-bottom: 10px;
+    font-size: 350%;
+}
+
+h2{
+    align-self: center;
+    color: #707070;
+    font-size: 150%;
+}
+
+h3{
+    align-self: center;
+    color: #707070;
+    font-size: 120%;
+}
+
+body{
+    background-color: #e8e8e8;
+}
+
+.button-container {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 20px; 
+}
+
+
+.full-width-button3 {
+    display: flex; 
+    width: 550px; 
+    text-align: center;
+    padding: 5px;
+    margin-top: 35px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    transform: scale(1); 
+}
+
+.full-width-button3:hover{
+    transform: scale(1.1);
+}
+
+.icon3 {
+    width: 65px; 
+    height: 60px; 
+    padding-bottom: 20px;
+    margin-left: 10px;
+    background-image: url("../imagenes/icono004.png"); 
+    background-size: cover; 
+    margin-right: 10px; 
+    order: 1; 
+}
+
+.description3 {
+    color: #707070; 
+    font-size: 16px; 
+    padding-bottom: 15px;
+    margin-left: 25px;
+    margin-top: 10px; 
+    font-size: 100%;
+    order: 2; 
+}
+
+/* Estilos para centrar el formulario en medio de la página */
+  .form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    flex-direction: column;
+  }
+  
+  .formulario {
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    width: 90%;
+    
+  }
+
+h4{
+    align-self: center;
+    color: darkgreen;
+    font-size: 110%;
+}
+
+h5{
+    align-self: center;
+    color: red;
+    font-size: 110%;
+}
